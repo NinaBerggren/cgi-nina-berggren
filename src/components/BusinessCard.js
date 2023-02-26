@@ -48,7 +48,6 @@ export const Card = styled.div`
   height: 100%;
   transition: transform 0.4s;
   transform-style: preserve-3d;
-
 `;
 
 export const BusinessCardContainer = styled.div`
@@ -58,8 +57,6 @@ export const BusinessCardContainer = styled.div`
     transform: rotateY(180deg);
     cursor: pointer;
   }
-
-
 `;
 
 const absoluteStyle = css`
@@ -70,7 +67,7 @@ const absoluteStyle = css`
   backface-visibility: hidden;
   border-radius: 1rem;
   box-shadow: 3px 3px 5px 3px rgba(50, 50, 50, 0.5);
-
+  
 `;
 
 export const BcFront = styled.div`
@@ -96,9 +93,9 @@ export const BcFront = styled.div`
 export const BcBack = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   padding-left: 1.5rem;
-  
+  padding-bottom: 1rem;
   width: 100%;
   background-color: var(--clr-light);
   transform: rotateY(180deg);
