@@ -1,9 +1,13 @@
 import React from 'react'
+import { Header } from 'components/Header'
+import { BusinessCard } from 'components/BusinessCard'
 
-export const App = () => {
+const App = () => {
   return (
     <div>
-      Find me in src/app.js!
+      <Header />
+      <BusinessCard />
     </div>
   )
 }
+export default App
